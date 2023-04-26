@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script type="application/javascript" src="script.js" async></script>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.ico">
+    <title>Made with processing</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar" >Made with processing</nav>
+    <div id="container">
+      <span id="text1"></span>
+      <span id="text2"></span>
+  </div>
+  
+  <svg id="filters">
+      <defs>
+          <filter id="threshold">
+              <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                    0 1 0 0 0
+                    0 1 1 0 0
+                    1 0 0 255 -212" />
+          </filter>
+      </defs>
+  </svg>
+    <div class="caja">
+      <p class="texto">"Made with Processing" es una serie de trabajos que utiliza la biblioteca p5.js para experimentar con código creativo y crear piezas visuales a partir de parámetros dados en el código. Estas piezas van desde simples formas geométricas hasta elementos más complejos.
+        <br><br>
+        En esta etapa de experimentación, se utilizan elementos visuales estáticos, shaders y se juega con el ratón de la computadora. El GIF que se encuentra al inicio consta de una serie de 100 fotogramas. El resto de las piezas son el resultado gráfico de solo una de ellas.
+      </p>
+    </div>
+    <div class="imagenes">
+      <img src="img/Aufmerksamkeit.gif" alt="gif">
+      <img src="img/15.png" alt="Cuadros_1">
+      <img src="img/7.png" alt="cuadros">
+      <img src="img/13.png" alt="Cuadros_2">
+      <img src="img/10.png" alt="Cuadros_4">
+      <img src="img/12.png" alt="Cuadros_3">
+    </div>
+
+    <footer>
+      <p>A S, México</p>
+    </footer>
+  </body>
+</html>
